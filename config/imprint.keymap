@@ -1,4 +1,4 @@
-#include <input/processors.dtsi>
+#include <inputuprocessors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -14,12 +14,12 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp F1  &kp F2    &kp F3    &kp F4    &kp F5              &kp F6     &kp F7    &kp F8     &kp F9    &kp F10   &kp F11
-&kp EQUAL  &kp N1  &kp N2    &kp N3    &kp N4    &kp N5              &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W     &kp E     &kp R     &kp T               &kp Y      &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp LCTRL  &kp A   &kp S     &kp D     &kp F     &kp G               &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V     &kp B               &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&trans     &trans  &kp LGUI  &kp LALT  &trans                                   &trans    &kp LBKT   &kp RBKT  &trans    &trans
+&kp F1     &kp F2  &kp F3    &kp F4    &kp F5    &kp F6              &kp F7     &kp F8    &kp F9     &kp F10   &kp F11   &kp F12
+&kp EQUAL  &kp 1   &kp 2     &kp 3     &kp 4     &kp 5               &kp 6      &kp 7     &kp 8      &kp 9     &kp 0     &kp MINUS
+&kp LALT   &kp X   &kp V     &kp L     &kp C     &kp W               &kp K      &kp H     &kp G      &kp F     &kp Q     &kp BSLH
+&kp LCTRL  &kp U   &kp I     &kp A     &kp E     &kp O               &kp S      &kp N     &kp R      &kp T     &kp D     &kp SQT
+&kp LSHFT  &kp Ü   &kp Ö     &kp Ä     &kp P     &kp Z               &kp B      &kp ,     &kp COMMA  &kp DOT   &kp J     &kp RSHFT
+&kp LGUI   &trans  &kp LGUI  &kp LALT  &trans                                   &trans    &kp LBKT   &kp RBKT  &trans    &trans
                                        &kp RET   &kp DEL  &kp ESC    &kp GRAVE  &kp BSPC  &kp SPACE
                                        &kp LGUI  &mo 1    &mo 2      &kp CAPS   &mo 2     &mo 1
             >;
